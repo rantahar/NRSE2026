@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="data_protection.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     objecttolerance="20"
+     inkscape:zoom="1.335294"
+     inkscape:cx="486.40973"
+     inkscape:cy="554.55952"
+     inkscape:window-width="1920"
+     inkscape:window-height="1143"
+     inkscape:window-x="0"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="marker3136"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3134" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker2856"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2854" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1630" />
+    </marker>
+    <color-profile
+       name="sRGB"
+       xlink:href="file:///usr/share/color/icc/colord/sRGB.icc"
+       id="color-profile2078" />
+    <color-profile
+       name="DELL-U2719D"
+       xlink:href="../../.local/share/icc/edid-77b32fd6d70c789ee27172bfd0b01438.icc"
+       id="color-profile2080" />
+    <color-profile
+       name="_65UHD_DISPLAY"
+       xlink:href="../../.local/share/icc/edid-12966c74d23171d2116cf5693f07cec2.icc"
+       id="color-profile2082" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter142394"
+       x="-0.0083036506"
+       y="-0.027404411"
+       width="1.0166073"
+       height="1.0548088">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.074907141"
+         id="feGaussianBlur142396" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter142394-7"
+       x="-0.0083036506"
+       y="-0.027404411"
+       width="1.0166073"
+       height="1.0548088">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.074907141"
+         id="feGaussianBlur142396-0" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter142394-7-6"
+       x="-0.0083036506"
+       y="-0.027404411"
+       width="1.0166073"
+       height="1.0548088">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.074907141"
+         id="feGaussianBlur142396-0-2" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#c2e2ff;fill-opacity:1;stroke-width:0.341883"
+       id="rect846"
+       width="140.39136"
+       height="101.99944"
+       x="-0.14017287"
+       y="0.42174798"
+       ry="8.0466356"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#c2e2ff;fill-opacity:1;stroke-width:0.299318"
+       id="rect848"
+       width="118.09474"
+       height="207.23163"
+       x="178.50807"
+       y="2.3361638"
+       ry="8.4167299"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#c2e2ff;fill-opacity:1;stroke-width:0.395111"
+       id="rect850"
+       width="139.55597"
+       height="89.372765"
+       x="1.1063848"
+       y="120.67177"
+       ry="9.7533941"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#ff8080;stroke-width:0.327752"
+       id="rect1304"
+       width="22.243473"
+       height="97.527855"
+       x="151.20363"
+       y="5.8385801"
+       ry="0"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#ff8080;stroke-width:0.359281;paint-order:stroke fill markers"
+       id="rect1378"
+       width="22.550426"
+       height="77.36795"
+       x="149.77194"
+       y="127.63187"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.16702px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286461"
+       x="-86.093292"
+       y="163.35789"
+       id="text3238"
+       transform="matrix(0.00406113,-1.018859,0.98147324,0.00421334,0,0)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan3236"
+         style="font-size:9.16702px;stroke-width:0.286461"
+         x="-86.093292"
+         y="163.35789">SSL encrypted </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:9.16702px;stroke-width:0.286461"
+         x="-86.093292"
+         y="174.81668"
+         id="tspan18156">    connetion</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.16702px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286461;paint-order:stroke fill markers"
+       x="-197.27188"
+       y="160.84671"
+       id="text3238-3"
+       transform="matrix(-0.00957235,-1.0188193,0.98143497,-0.00993825,0,0)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan3236-6"
+         style="font-size:9.16702px;stroke-width:0.286461;paint-order:stroke fill markers"
+         x="-197.27188"
+         y="160.84671">SSL encrypted </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:9.16702px;stroke-width:0.286461;paint-order:stroke fill markers"
+         x="-197.27188"
+         y="172.3055"
+         id="tspan18156-7">    connetion</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.16702px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
+       x="15.00449"
+       y="10.376713"
+       id="text34827"
+       transform="scale(0.98150251,1.0188461)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan34825"
+         style="font-size:9.16702px;stroke-width:0.286469"
+         x="15.00449"
+         y="10.376713">Participant Controlled</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.40309px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
+       x="17.309761"
+       y="74.477783"
+       id="text53185"
+       transform="scale(0.98150251,1.0188461)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan53183"
+         style="font-size:8.40309px;stroke-width:0.286469"
+         x="17.309761"
+         y="74.477783">Participant</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.63918px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
+       x="223.75586"
+       y="90.586052"
+       id="text73943"
+       transform="scale(0.98150251,1.0188461)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan73941"
+         style="font-size:7.63918px;stroke-width:0.286469"
+         x="223.75586"
+         y="90.586052">Niimport</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.11134px;stroke-width:0.286469"
+         x="223.75586"
+         y="100.13503"
+         id="tspan94145">- Authorization</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.11134px;stroke-width:0.286469"
+         x="223.75586"
+         y="109.684"
+         id="tspan116727">- Data review</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.63918px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
+       x="47.35416"
+       y="33.151676"
+       id="text81429"
+       transform="scale(0.98150251,1.0188461)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan81427"
+         style="font-size:7.63918px;stroke-width:0.286469"
+         x="47.35416"
+         y="33.151676">Aware App</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.11134px;stroke-width:0.286469"
+         x="47.35416"
+         y="42.700653"
+         id="tspan122099">- Runs on personal phone</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.63918px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
+       x="215.95927"
+       y="131.08347"
+       id="text104747"
+       transform="scale(0.98150251,1.0188461)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan104745"
+         style="font-size:7.63918px;stroke-width:0.286469"
+         x="215.95927"
+         y="131.08347">Study server</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.11134px;stroke-width:0.286469"
+         x="215.95927"
+         y="140.63243"
+         id="tspan128885">- Participant</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.11134px;stroke-width:0.286469"
+         x="215.95927"
+         y="150.18141"
+         id="tspan228671">   - Account</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.11134px;stroke-width:0.286469"
+         x="215.95927"
+         y="159.73039"
+         id="tspan128887">   - questionaires</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.11134px;stroke-width:0.286469"
+         x="215.95927"
+         y="169.27936"
+         id="tspan140323">-    consent</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.11134px;stroke-width:0.286469"
+         x="215.95927"
+         y="178.82834"
+         id="tspan228669">- Researcher</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.11134px;stroke-width:0.286469"
+         x="215.95927"
+         y="188.37732"
+         id="tspan228673">   - Study configuration</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0abdd0;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter142394)"
+       id="rect142116"
+       width="81.864853"
+       height="24.805391"
+       x="40.016525"
+       y="25.480175"
+       rx="0.70000017"
+       ry="8.7558556"
+       transform="matrix(1.0465196,0,0,0.9226993,-0.31705139,-0.44432345)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.63918px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
+       x="219.80161"
+       y="62.376305"
+       id="text81429-9"
+       transform="scale(0.98150251,1.0188461)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan81427-3"
+         style="font-size:7.63918px;stroke-width:0.286469"
+         x="219.80161"
+         y="62.376305">Aware Server</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.11134px;stroke-width:0.286469"
+         x="219.80161"
+         y="71.925285"
+         id="tspan152062">- Phone data</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0abdd0;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter142394-7)"
+       id="rect142116-0"
+       width="81.864853"
+       height="24.805391"
+       x="40.016525"
+       y="25.480175"
+       rx="0.70000017"
+       ry="8.7558556"
+       transform="matrix(0.72765076,0,0,1.0465125,181.70216,25.963824)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0abdd0;stroke-width:1.62129;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect142400"
+       width="81.07872"
+       height="70.178131"
+       x="202.54713"
+       y="124.12646"
+       rx="0.94254059"
+       ry="12.339611"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0abdd0;stroke-width:1.00692;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect142402"
+       width="66.939171"
+       height="34.753517"
+       x="210.82018"
+       y="82.674446"
+       rx="0.74441403"
+       ry="6.026309"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.16702px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
+       x="188.94627"
+       y="13.419315"
+       id="text148329"
+       transform="scale(0.98150251,1.0188461)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan148327"
+         style="font-size:9.16702px;stroke-width:0.286469"
+         x="188.94627"
+         y="13.419315">    Admin Controlled</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.87526px;stroke-width:0.286469"
+         x="188.94627"
+         y="24.878092"
+         id="tspan187426">- Data encrypted</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.87526px;stroke-width:0.286469"
+         x="188.94627"
+         y="36.336868"
+         id="tspan187428">- Temporary storage</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.87526px;stroke-width:0.286469"
+         x="188.94627"
+         y="47.795647"
+         id="tspan187430">- Data minimization processing</tspan></text>
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#0abdd0;stroke-width:2.16544;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path201731"
+       cx="38.962955"
+       cy="74.227966"
+       rx="28.91715"
+       ry="14.838953"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.40309px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
+       x="12.297005"
+       y="172.43436"
+       id="text53185-9"
+       transform="scale(0.98150251,1.0188461)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan53183-2"
+         style="font-size:8.40309px;stroke-width:0.286469"
+         x="12.297005"
+         y="172.43436">Researcher</tspan></text>
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#0abdd0;stroke-width:2.16544;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path201731-0"
+       cx="34.042919"
+       cy="174.03062"
+       rx="28.91715"
+       ry="14.838953"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.16702px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
+       x="19.307941"
+       y="133.77977"
+       id="text206943"
+       transform="scale(0.98150251,1.0188461)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan206941"
+         style="font-size:9.16702px;stroke-width:0.286469"
+         x="19.307941"
+         y="133.77977">Researcher Controlled</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.63918px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
+       x="81.489227"
+       y="163.99602"
+       id="text81429-9-6"
+       transform="scale(0.98150251,1.0188461)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan81427-3-1"
+         style="font-size:7.63918px;stroke-width:0.286469"
+         x="81.489227"
+         y="163.99602">Aalto Storage</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.11134px;stroke-width:0.286469"
+         x="81.489227"
+         y="173.545"
+         id="tspan152062-8">- TeamWork and</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.11134px;stroke-width:0.286469"
+         x="81.489227"
+         y="183.09396"
+         id="tspan216092">   Work storage</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#0abdd0;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter142394-7-6)"
+       id="rect142116-0-7"
+       width="81.864853"
+       height="24.805391"
+       x="40.016525"
+       y="25.480175"
+       rx="0.70000017"
+       ry="8.7558556"
+       transform="matrix(0.7295691,0,0,1.4105791,45.884439,120.35481)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.541359;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2856)"
+       d="m 42.929383,60.713244 32.216092,-14.8284"
+       id="path2470"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.541359;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 127.05203,35.024395 83.01219,32.230756"
+       id="path2472"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.541359;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 65.157441,68.230528 212.08464,93.140559"
+       id="path2770"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend);stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 59.958207,82.503795 137.809443,20.314295 4.7776,21.30587"
+       id="path2772"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.541359;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3136)"
+       d="m 270.11649,68.033632 c 53.51731,2.353623 14.34156,90.851988 14.34156,90.851988"
+       id="path2979"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.541359;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2856)"
+       d="m 278.26348,97.161363 c 0,0 21.62562,1.218764 5.51954,40.922247"
+       id="path3048"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.541359;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2856)"
+       d="m 202.84524,161.70014 -67.58479,10.82361"
+       id="path3050"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend);stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 75.085214,175.01987 63.047191,174.17723"
+       id="path1394" />
+  </g>
+</svg>

@@ -7,7 +7,7 @@
     <title>Facilitating Donated Data</title>
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/css/reveal.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/css/theme/sky.css">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.7.0/css/theme/sky.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/zenburn.min.css">
 
     <script>
@@ -23,157 +23,175 @@
       <div class="slides">
 
 
+        <!-- 
+        20 minutes in schedule, 5 minutes for questions.
+
+
+        Keeping track of study participants seems like common problem, one that should have an open source
+        solution by now. I could not find a satisfactory one, and built one in Django instead. It has
+        - data sovereignty built in
+        - support for handling several data sources
+        - separation between researchers and data administrator
+
+        What do you use to solve this problem?
+
+
+        Intro: the problem 5 minutes
+         - Study with human participants
+         - Participants create accounts, we need to keep track of them
+         - Send email, ask for survey answers, samples, and so on
+         - No open source solution?
+
+        Requirements and nice to haves: 5 minutes
+         - Participant login
+         - Email
+         - Configurable data sources
+         - Data sovereignty
+
+        The study server: 5 minutes
+         - Django
+         - Data sources as an app plugin
+         - Participant owns their data, can download it, and delete it
+         - Separation between researchers and data administrator
+        
+
+        -->
+
         <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
           <textarea data-template>
-            # Facilitating Donated Data
-            Jarno Rantaharju - May 20, 2025
+            # tracking Study Participants
+            Jarno Rantaharju - June 10, 2026
 
             ---
             
-            ## Data Collection
+            ## The problem
 
-            - There are many issues regarding personal data
+            - Study that has human participants
+            - Collects data about those participants over time
+
+            ---
+
+            ## The problem
+
+            ### Possible data sources
+            - Survey responses
+            - Device data
+            - Behavior
+            - Samples ...
+
+            ---
+
+            ## The problem
+
+            ### Participant management
+            - Check who needs help with setup
+            - Survey reminders
+            - Send information email
+            - Check data collection status
             
-            Such as
-              - how do we get more of it?
 
             ---
 
-            ## Data Collection
+            ##  The problem
 
-            <div style="display: flex;">
-              <div style="flex: 0.7; padding-right: 0px;">
-                <img src="watch.jpeg" alt="Picture of a Google Maps Timeline" style="width: 50%;">                
-              </div>
-              <div style="flex: 1.3;">
-                <ul>
-                  <li>Takes time, expensive</li>
-                  <li>Requires effort from participants</li>
-                  <li>Affects subject's behavior</li>
-                  <li>The data is only collected after the study starts</li>
-                </ul>
-              </div>
-            </div>
+            - No open source solution?
 
             ---
 
-            ## Data Already Exists
+            ## Requirements
+
+            So we've built a solutions a few time over. What are the requirements?
+
+            - Participant login
+            - Configurable data sources
+            - Data sovereignty
             
-            <div style="display: flex;">
-            <div style="flex: 1; padding-right: 20px;">
-              <ul>
-                <li>Thanks to GDPR and similar regulations, we have access to a trove of data</li>
-              </ul>
-            </div>
-            <div style="flex: 1;">
-                <img src="timeline.jpeg" alt="Picture of a Google Maps Timeline" style="width: 60%;">
-            </div>
-            </div>
+            ---
+
+            ## Requirements
+
+            ### Login and roles
+
+            - Participants create their own account
+            - And control their own information
+            - Must track consent and data sharing preferences
+            - Researcher accounts
+            - Data administrator
 
             ---
 
-            ## Data Already Exists
+            ## Requirements
+
+            ### Data sources
+
+            - Should be easy to add per study
+            - Clear consent flow for different types of data
+            - Visible to the participant
+            - Unified interface for researchers
+
+            ---
+
+            ## Requirements
+
+            ### Data sovereignty
+
+            - Data primarily owned by the participant
+            - Participants can download their data
+            - Participants can delete their data
+            - Researcher access depends on consent
+
+            ---
+
+            ## The study server
+
+            - Built in Django
+            - Currently included data sources:
+              - Survey responses
+              - Google and TikTok exports (using Niimport)
+              - Aware framework for device data collection
+            - Data sources are Django apps
+
+            ---
+
+            ### The study server
+
+            - One study object
+            - Data source configurations
+            - Participant sign up creates consent objects for each data source
+            - Data source itself created by the participant, and linked to the consent
+
+            ---
+
+            ## The study server
 
             <div style="display: flex;">
-              <div style="flex: 1; padding-right: 20px;">
-                <ul>
-                  <li>The data is collected anyway, we just need to ask for it</li>
-                  <li>Reduces the burden on the subject</li>
-                  <li>Authentic behavior</li>
-                  <li>Different selection bias</li>
-                </ul>
-              </div>
               <div style="flex: 1;">
-                  <img src="timeline.jpeg" alt="Picture of a Google Maps Timeline" style="width: 60%;">
+                  <img src="data_protection.svg" alt="Picture of data flows in the study server" style="width: 60%;">
               </div>
+            </div>
+
+            ---
+
+            ## The study server classes
+
+            <div style="display: flex;">
+              <div style="flex: 1;">
+                  <img src="study_server_classes.svg" alt="Class relationships in the study server" style="width: 86%;">
               </div>
+            </div>
 
             ---
-
-            ## Real World Applications
-
-            - Binge-Watching Netflix? Insights From Data Donations
-              - https://doi.org/10.17645/mac.9362
-              - Using [PORT software](https://github.com/eyra/port)
-              - Binge watching is not as common as the hype suggested
-
-            ---
-
-            ## Real World Applications
-
-            - Instagram Use Among Adolescents
-              - https://doi.org/10.1080/19312458.2022.2109608
-
-            - TikTok User Behavior Analysis
-              - https://ar5iv.labs.arxiv.org/html/2301.04945
-
-            ---
-
-            ## Real World Applications
-
-            - More accurate picture than self-reports or scraping
-
-            ---
-
-            ## Demonstration
-
-            - Let's take a look at the [Google Takeout](https://takeout.google.com/) page
-
-            ---
-
-            ## Demonstration
-
-            - [Participant support extension](https://chromewebstore.google.com/detail/google-takeout-helper/khopbdleacpmohfcjpmkilmnfhnaooik)
-              - Unlisted but public with this link
-
-            - Study page
-              - [Example Django page](https://github.com/digitraceslab/google_takeout_export)
-              - Provides `api/takeout_items/`
-
-            ---
-
-            ## Demonstration
-
-            - Requesting data
-            - Downloading and uploading
-
-            - Move to Jupyter
-              - (see location_to_map.ipynb in the repository)
-            - Load location data using Niimpy, inspect
-            - Plot a route on a map
-            - Showcase social signature
             
-            ---
+            ## The study server
 
-            ## Data processing
-
-            - Server side processing:
-              - The subject uploads the full data file
-              - We reduce the data on the server and pseudonymize
-              - The reduced data is copied to the researchers
-
-            - Other options:
-              - Client side processing: [PORT software](https://github.com/eyra/port)
-                - Requires a more from the subject
-                - Improves privacy, no third party data processor
+            - [Demo](http://localhost:8000)
 
             ---
 
-            ## Privacy
+            ## Questions
 
-            - This is very personal data
-            - Pseudonymized, but often easily identifiable
-            - Already stored by a third party
+            - What do you use to solve this problem?
 
-            - Key principles:
-              - Data minimization
-              - Purpose limitation
-              - Informed consent
-              - Secure storage and transmission
-
-            ---
-
-            ## Questions?
 
             </textarea>
         </section>
