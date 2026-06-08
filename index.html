@@ -40,20 +40,28 @@
          - Study with human participants
          - Participants create accounts, we need to keep track of them
          - Send email, ask for survey answers, samples, and so on
+         - Collect data from diverse sources and unify
          - No open source solution?
 
-        Requirements and nice to haves: 5 minutes
-         - Participant login
-         - Email
-         - Configurable data sources
-         - Data sovereignty
 
-        The study server: 5 minutes
-         - Django
-         - Data sources as an app plugin
-         - Participant owns their data, can download it, and delete it
-         - Separation between researchers and data administrator
-        
+        Study server
+          - Django
+          - Data sources are Django apps
+          - Data sovereignty
+
+        Participant workflows
+          - Creates an account and joins the study
+          - Study front page infromation sheet, consents per data source
+          - Dashboard with status, set up instructions, and data download
+          - Data visible to participant, can download it, and delete it
+
+        Data sources
+          - Django apps, simple plugin system
+          - Built in:
+            - Survey responses
+            - Google and TikTok exports (using Niimport)
+            - Aware framework for device data collection
+          - Researchers set up configurations
 
         -->
 
@@ -68,92 +76,76 @@
 
             - Study that has human participants
             - Collects data about those participants over time
+            - Sign up and manage your participants
+            - Data sovereigny and security
 
             ---
 
             ## The problem
 
             ### Possible data sources
-            - Survey responses
-            - Device data
-            - Behavior
-            - Samples ...
+
+            <div style="display: flex;">
+              <div style="flex: 1.3; padding-right: 0px;">
+                <ul>
+                  <li>Survey responses</li>
+                  <li>Location</li>
+                  <li>Heart rate</li>
+                  <li>Behavior</li>
+                  <li>Samples ...</li>
+                </ul>
+              </div>
+              <div style="flex: 0.7;">
+                    <img src="timeline.jpeg" alt="Persons route on a map" style="width: 70%;">
+              </div>
+            </div>
 
             ---
 
-            ## The problem
-
-            ### Participant management
-            - Check who needs help with setup
-            - Survey reminders
-            - Send information email
-            - Check data collection status
-            
-
-            ---
-
-            ##  The problem
+            ## Study Server
 
             - No open source solution?
 
-            ---
-
-            ## Requirements
-
-            So we've built a solutions a few time over. What are the requirements?
-
-            - Participant login
-            - Configurable data sources
-            - Data sovereignty
+            - Built in Django
+            - Standard login system with custom data
+            - Data sources are Django apps
+            - Data linked to participants through consents
             
             ---
 
-            ## Requirements
+            ### Participant
 
-            ### Login and roles
+            [Demo](http://localhost:8000)
 
-            - Participants create their own account
-            - And control their own information
-            - Must track consent and data sharing preferences
-            - Researcher accounts
-            - Data administrator
+            - Creates an account and joins the study
+            - Consents to each data source
+            - Gets set up instructionss for each source
+            - Sees the data and can download it
+            - Can delete their data or withdraw
+
+            ---
+            
+            ### Researcher
+
+            - Configures the study
+            - Sets up data source configurations
+            - Creates a study page
+            - Writes consent forms
+            - Sees participant ids but not identifying information
+            - Can send reminders or contact participants
 
             ---
 
-            ## Requirements
+            ### Data administrator
 
-            ### Data sources
-
-            - Should be easy to add per study
-            - Clear consent flow for different types of data
-            - Visible to the participant
-            - Unified interface for researchers
+            - Separate role from researchers
+            - Manages the server
+            - Researchers do not need account information
+            - Or identifiers removed from the data.
 
             ---
 
-            ## Requirements
-
-            ### Data sovereignty
-
-            - Data primarily owned by the participant
-            - Participants can download their data
-            - Participants can delete their data
-            - Researcher access depends on consent
-
-            ---
-
-            ## The study server
-
-            - Built in Django
-            - Currently included data sources:
-              - Survey responses
-              - Google and TikTok exports (using Niimport)
-              - Aware framework for device data collection
-            - Data sources are Django apps
-
-            ---
-
-            ### The study server
+            ### Data flows
 
             - One study object
             - Data source configurations
@@ -162,7 +154,7 @@
 
             ---
 
-            ## The study server
+            ## Data flows
 
             <div style="display: flex;">
               <div style="flex: 1;">
@@ -172,11 +164,11 @@
 
             ---
 
-            ## The study server classes
+            ## Sources and Consents
 
             <div style="display: flex;">
               <div style="flex: 1;">
-                  <img src="study_server_classes.svg" alt="Class relationships in the study server" style="width: 86%;">
+                  <img src="study_server_classes.svg" alt="Class relationships in the study server" style="width: 75%;">
               </div>
             </div>
 
@@ -189,9 +181,6 @@
             ---
 
             ## Questions
-
-            - What do you use to solve this problem?
-
 
             </textarea>
         </section>
