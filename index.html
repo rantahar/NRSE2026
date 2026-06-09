@@ -21,28 +21,39 @@
   <body>
     <div class="reveal">
       <div class="slides">
-
-
         <!-- 
         20 minutes in schedule, 5 minutes for questions.
 
 
-        Keeping track of study participants seems like common problem, one that should have an open source
-        solution by now. I could not find a satisfactory one, and built one in Django instead. It has
-        - data sovereignty built in
-        - support for handling several data sources
-        - separation between researchers and data administrator
+        Seemingly common problem: Studies with many human participants. I have written a
+        server to track participants for a couple of studies now, and there should be an
+        open source solution. I'm writing an implementation that fits all these previous
+        cases.
 
-        What do you use to solve this problem?
+        Also based on Koota
+
+        What is needed? This will be a solution for a particular type of study, is there
+        a class of problems I am ignoring?
+
+        - Privacy and security
+        - Participant owns their data:
+          - Creates an account and controls their consents and data sources
+          - Can see and download their own data
+        - Researcher biew:
+          - Configuration
+          - Data download and mark for deletion
+          - Contact participants
+          - No identifying information, only participant ids
+        - Data administrator separete from researchers
+        - System administrator conceptually separate
 
 
-        Intro: the problem 5 minutes
+        Intro: 5 minutes
          - Study with human participants
-         - Participants create accounts, we need to keep track of them
-         - Send email, ask for survey answers, samples, and so on
-         - Collect data from diverse sources and unify
-         - No open source solution?
-
+         - Participant tracking (consent, status, contact information...)
+         - Data collection (multiple sources...)
+         - Data sovereignty and security
+         - Reoccuring study type, but no open source solution?
 
         Study server
           - Django
@@ -67,49 +78,128 @@
 
         <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
           <textarea data-template>
-            # tracking Study Participants
+            ## tracking Study Participants
+            
             Jarno Rantaharju - June 10, 2026
 
             ---
             
             ## The problem
 
-            - Study that has human participants
-            - Collects data about those participants over time
-            - Sign up and manage your participants
-            - Data sovereigny and security
+             - Manage participant details
+               - Consent information
+               - Contact information
+               - Participant status
+             - Data sovereignty and security
 
             ---
 
             ## The problem
 
-            ### Possible data sources
+             - Multiple sources of data
+               - Surveys
+               - Device data
+               - Samples
+               - ...
+
+            ---
+
+            ### Data sources
 
             <div style="display: flex;">
-              <div style="flex: 1.3; padding-right: 0px;">
-                <ul>
-                  <li>Survey responses</li>
-                  <li>Location</li>
-                  <li>Heart rate</li>
-                  <li>Behavior</li>
-                  <li>Samples ...</li>
-                </ul>
-              </div>
-              <div style="flex: 0.7;">
-                    <img src="timeline.jpeg" alt="Persons route on a map" style="width: 70%;">
+              <div style="flex: 1;">
+                  <img src="data_sources.svg" alt="Picture of data flows in the study server" style="width: 60%;">
               </div>
             </div>
 
             ---
 
+            ## The problem
+
+            - Rule of 2: 
+            </br> Next time I should not need to start from zero
+            - Done before in [Koota](https://github.com/digitraceslab/koota-server)
+            - and probably many other local implementations
+
+            ---
+
             ## Study Server
 
-            - No open source solution?
+            - Django
+            - Comes with:
+              - Login and user management
+              - Security features
+              - Admin interface
 
-            - Built in Django
-            - Standard login system with custom data
-            - Data sources are Django apps
-            - Data linked to participants through consents
+            ---
+
+            ## Study Server
+
+            We add:
+            
+            - Random user id attached to collected data
+            - Identifying information stored separate from the data
+
+            ---
+
+            ### Data Sources and Consents
+            
+            We add:
+            - Source configurations (researcher)
+            - Consents
+            - Data sources (participant)
+            
+            ---
+
+            ### Data Sources and Consents
+
+            <div style="display: flex;">
+              <div style="flex: 1;">
+                  <img src="study_server_classes.svg" alt="Class relationships in the study server" style="width: 75%;">
+              </div>
+            </div>
+
+            ---
+
+            ### Data Sources and Consents
+            
+            - Data source configurations
+               - set up by the reseachers
+               - what data source are required for the study
+               - consent forms
+
+            ---
+
+            ### Data Sources and Consents
+            
+            - Consent
+               - connects participant, study and data source
+               - tracks what the participant consented to
+
+
+            ---
+            
+            ### Data Sources and Consents
+
+            - Data source tells the server
+              - instructions to give participants
+              - what types of data exist
+              - how to pull data
+
+            - The differences between studies are here
+
+            ---
+
+            ### Researcher
+
+            [Demo](http://localhost:8000)
+
+            - Configures the study
+            - Sets up data source configurations
+            - Creates a study page
+            - Writes consent forms
+            - Sees participant ids but not identifying information
+            - Can send reminders or contact participants
             
             ---
 
@@ -119,20 +209,9 @@
 
             - Creates an account and joins the study
             - Consents to each data source
-            - Gets set up instructionss for each source
+            - Gets set up instructions for each source
             - Sees the data and can download it
             - Can delete their data or withdraw
-
-            ---
-            
-            ### Researcher
-
-            - Configures the study
-            - Sets up data source configurations
-            - Creates a study page
-            - Writes consent forms
-            - Sees participant ids but not identifying information
-            - Can send reminders or contact participants
 
             ---
 
@@ -145,15 +224,6 @@
 
             ---
 
-            ### Data flows
-
-            - One study object
-            - Data source configurations
-            - Participant sign up creates consent objects for each data source
-            - Data source itself created by the participant, and linked to the consent
-
-            ---
-
             ## Data flows
 
             <div style="display: flex;">
@@ -161,22 +231,6 @@
                   <img src="data_protection.svg" alt="Picture of data flows in the study server" style="width: 60%;">
               </div>
             </div>
-
-            ---
-
-            ## Sources and Consents
-
-            <div style="display: flex;">
-              <div style="flex: 1;">
-                  <img src="study_server_classes.svg" alt="Class relationships in the study server" style="width: 75%;">
-              </div>
-            </div>
-
-            ---
-            
-            ## The study server
-
-            - [Demo](http://localhost:8000)
 
             ---
 
