@@ -22,8 +22,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.83489743"
-     inkscape:cx="346.74918"
-     inkscape:cy="628.81976"
+     inkscape:cx="624.62763"
+     inkscape:cy="372.50085"
      inkscape:window-width="1920"
      inkscape:window-height="1143"
      inkscape:window-x="0"
@@ -32,6 +32,34 @@
      inkscape:current-layer="svg31240" />
   <defs
      id="defs31148">
+    <marker
+       style="overflow:visible;"
+       id="marker3121"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3119" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2852" />
+    </marker>
     <marker
        id="arrow-end"
        viewBox="0 0 10 10"
@@ -47,8 +75,8 @@
     </marker>
   </defs>
   <ellipse
-     cx="34"
-     cy="96"
+     cx="33.004875"
+     cy="127.84383"
      rx="21"
      ry="12"
      fill="none"
@@ -56,15 +84,35 @@
      stroke-width="1.9"
      id="ellipse31154" />
   <text
-     x="17.883331"
-     y="98"
+     x="16.888206"
+     y="129.84383"
      font-family="sans-serif"
      font-size="6.3px"
      fill="#000000"
      id="text31156">Participant</text>
+  <ellipse
+     cx="158.40001"
+     cy="20.904024"
+     rx="22.976576"
+     ry="11.958036"
+     fill="none"
+     stroke="#0abdd0"
+     stroke-width="1.98393"
+     id="ellipse31154-3" />
+  <text
+     x="140.79396"
+     y="22.904024"
+     font-family="sans-serif"
+     font-size="6.3px"
+     fill="#000000"
+     id="text31156-6"><tspan
+       sodipodi:role="line"
+       id="tspan1092"
+       x="140.79396"
+       y="22.904024">Researcher</tspan></text>
   <rect
-     x="76"
-     y="24"
+     x="41.810738"
+     y="42.989445"
      width="96"
      height="34"
      rx="1"
@@ -74,29 +122,29 @@
      stroke-width="1.3"
      id="rect31158" />
   <text
-     x="82"
-     y="35"
+     x="47.810738"
+     y="53.989445"
      font-family="sans-serif"
-     font-size="7.1"
+     font-size="7.1px"
      fill="#000000"
      id="text31160">Study (singleton)</text>
   <text
-     x="82"
-     y="44"
+     x="47.810738"
+     y="62.989445"
      font-family="sans-serif"
-     font-size="5.2"
+     font-size="5.2px"
      fill="#000000"
      id="text31162">- title, description</text>
   <text
-     x="82"
-     y="52"
+     x="47.810738"
+     y="70.989449"
      font-family="sans-serif"
-     font-size="5.2"
+     font-size="5.2px"
      fill="#000000"
      id="text31164">- study_page_html (front page)</text>
   <rect
      x="192"
-     y="18"
+     y="30"
      width="94"
      height="28"
      rx="1"
@@ -107,21 +155,21 @@
      id="rect31166" />
   <text
      x="197"
-     y="28"
+     y="40"
      font-family="sans-serif"
-     font-size="6.2"
+     font-size="6.2px"
      fill="#000000"
      id="text31168">StudySourceConfiguration</text>
   <text
      x="197"
-     y="37"
+     y="49"
      font-family="sans-serif"
-     font-size="5.1"
+     font-size="5.1px"
      fill="#000000"
      id="text31170">source_type: survey</text>
   <rect
      x="192"
-     y="49"
+     y="61"
      width="94"
      height="28"
      rx="1"
@@ -132,21 +180,21 @@
      id="rect31172" />
   <text
      x="197"
-     y="59"
+     y="71"
      font-family="sans-serif"
-     font-size="6.2"
+     font-size="6.2px"
      fill="#000000"
      id="text31174">StudySourceConfiguration</text>
   <text
      x="197"
-     y="68"
+     y="80"
      font-family="sans-serif"
-     font-size="5.1"
+     font-size="5.1px"
      fill="#000000"
      id="text31176">source_type: aware</text>
   <rect
      x="192"
-     y="80"
+     y="92"
      width="94"
      height="28"
      rx="1"
@@ -157,16 +205,16 @@
      id="rect31178" />
   <text
      x="197"
-     y="90"
+     y="102"
      font-family="sans-serif"
-     font-size="6.2"
+     font-size="6.2px"
      fill="#000000"
      id="text31180">StudySourceConfiguration</text>
   <text
      x="197"
-     y="99"
+     y="111"
      font-family="sans-serif"
-     font-size="5.1"
+     font-size="5.1px"
      fill="#000000"
      id="text31182">source_type: google_takeout</text>
   <rect
@@ -299,22 +347,15 @@
      fill="#000000"
      id="text31212">DataSource (google_takeout)</text>
   <path
-     d="M 45.42342,86.331436 75.903228,41.029657"
+     d="m 49.333217,120.64926 36.726604,-6.23421"
      fill="none"
      stroke="#000000"
-     stroke-width="0.624499"
+     stroke-width="0.37986"
      marker-end="url(#arrow-end)"
-     id="path31214"
+     id="path31222"
      style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
   <path
-     d="M 54 99 L 86 114"
-     fill="none"
-     stroke="#000000"
-     stroke-width="0.55"
-     marker-end="url(#arrow-end)"
-     id="path31222" />
-  <path
-     d="m 51.256881,103.84151 34.759652,36.16761"
+     d="m 54.537162,128.64323 31.570676,11.4709"
      fill="none"
      stroke="#000000"
      stroke-width="0.552017"
@@ -322,33 +363,37 @@
      id="path31224"
      style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
   <path
-     d="M 44.504308,107.07943 85.97318,165.98177"
+     d="m 44.965501,137.90622 41.082975,28.17975"
      fill="none"
      stroke="#000000"
-     stroke-width="0.605404"
+     stroke-width="0.41679"
      marker-end="url(#arrow-end)"
-     id="path31226" />
+     id="path31226"
+     style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
   <path
-     d="M 192 30 L 162 114"
+     d="M 191.43584,45.534923 161.95828,114.03482"
      fill="none"
      stroke="#000000"
-     stroke-width="0.55"
+     stroke-width="0.480112"
      marker-end="url(#arrow-end)"
-     id="path31228" />
+     id="path31228"
+     style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
   <path
-     d="M 192 61 L 162 140"
+     d="M 192.2857,77.392403 161.96092,140.0366"
      fill="none"
      stroke="#000000"
-     stroke-width="0.55"
+     stroke-width="0.492411"
      marker-end="url(#arrow-end)"
-     id="path31230" />
+     id="path31230"
+     style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
   <path
-     d="M 192 92 L 162 166"
+     d="M 191.18677,104.11301 161.9706,166.03268"
      fill="none"
      stroke="#000000"
-     stroke-width="0.55"
+     stroke-width="0.496492"
      marker-end="url(#arrow-end)"
-     id="path31232" />
+     id="path31232"
+     style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
   <path
      d="M 162 114 L 192 144"
      fill="none"
@@ -370,4 +415,20 @@
      stroke-width="0.55"
      marker-end="url(#arrow-end)"
      id="path31238" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#arrow-end)"
+     d="M 139.44832,27.617431 95.709876,43.17265"
+     id="path2847" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#arrow-end);stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 178.40652,27.167985 13.02932,18.366938"
+     id="path3117" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#arrow-end)"
+     d="M 167.19389,31.830441 192.2857,77.392402"
+     id="path3129" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#arrow-end);stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 158.52766,33.228478 32.65911,70.884532"
+     id="path3131" />
 </svg>
