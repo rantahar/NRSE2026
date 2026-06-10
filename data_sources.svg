@@ -28,9 +28,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      objecttolerance="20"
-     inkscape:zoom="0.81526184"
-     inkscape:cx="545.2236"
-     inkscape:cy="436.66952"
+     inkscape:zoom="0.76048291"
+     inkscape:cx="663.39426"
+     inkscape:cy="411.58058"
      inkscape:window-width="1920"
      inkscape:window-height="1143"
      inkscape:window-x="0"
@@ -84,15 +84,15 @@
     <color-profile
        name="sRGB"
        xlink:href="file:///usr/share/color/icc/colord/sRGB.icc"
-       id="color-profile30952" />
+       id="color-profile2896" />
     <color-profile
        name="DELL-U2719D"
        xlink:href="../../.local/share/icc/edid-77b32fd6d70c789ee27172bfd0b01438.icc"
-       id="color-profile30954" />
+       id="color-profile2898" />
     <color-profile
        name="_65UHD_DISPLAY"
        xlink:href="../../.local/share/icc/edid-12966c74d23171d2116cf5693f07cec2.icc"
-       id="color-profile30956" />
+       id="color-profile2900" />
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
@@ -158,6 +158,33 @@
          stdDeviation="0.074907141"
          id="feGaussianBlur142396-9-6-0" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter142394-2-3-2-3"
+       x="-0.0083036506"
+       y="-0.027404411"
+       width="1.0166073"
+       height="1.0548088">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.074907141"
+         id="feGaussianBlur142396-9-6-0-6" />
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="marker3136-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path3134-2" />
+    </marker>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -174,21 +201,6 @@
        inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:9.16702px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
-       x="202.87781"
-       y="-4.5619755"
-       id="text34827"
-       transform="scale(0.98150251,1.0188461)"
-       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan34825"
-         style="font-size:9.16702px;stroke-width:0.286469"
-         x="202.87781"
-         y="-4.5619755">Participant Controlled</tspan></text>
     <rect
        style="fill:#c2e2ff;fill-opacity:1;stroke:#0abdd0;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter142394)"
        id="rect142116"
@@ -198,7 +210,7 @@
        y="25.480175"
        rx="0.70000017"
        ry="8.7558556"
-       transform="matrix(0.61148595,0,0,0.78115634,-4.5416103,3.2796202)"
+       transform="matrix(0.61148595,0,0,0.78115634,-15.100074,19.928408)"
        inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
@@ -229,7 +241,7 @@
          y="91.34774">Study Server</tspan></text>
     <g
        id="g4329"
-       transform="translate(-59.662568,-27.992609)">
+       transform="translate(-70.221032,-11.343821)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:7.63918px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
@@ -260,13 +272,13 @@
        y="25.480175"
        rx="0.70000017"
        ry="8.7558556"
-       transform="matrix(0.61148595,0,0,0.78115634,127.85289,-6.5540986)"
+       transform="matrix(0.61148595,0,0,0.78115634,98.87476,-5.6625934)"
        inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <g
        id="g4329-2"
-       transform="translate(72.731929,-37.826328)">
+       transform="translate(43.753799,-36.934823)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:7.76111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
@@ -292,13 +304,13 @@
        y="25.480175"
        rx="0.70000017"
        ry="8.7558556"
-       transform="matrix(0.61148595,0,0,0.78115634,189.28542,5.0421573)"
+       transform="matrix(0.61148595,0,0,0.78115634,162.78163,-4.986635)"
        inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <g
        id="g4329-2-6"
-       transform="translate(133.10612,-26.230072)">
+       transform="translate(106.60233,-36.258864)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:7.76111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
@@ -324,13 +336,13 @@
        y="25.480175"
        rx="0.70000017"
        ry="8.7558556"
-       transform="matrix(0.86103949,0,0,0.7588494,185.49778,55.181803)"
+       transform="matrix(0.86103949,0,0,0.7588494,183.47775,22.90848)"
        inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <g
        id="g4329-2-6-3"
-       transform="translate(139.24717,22.865776)">
+       transform="translate(137.22714,-9.4075473)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:7.76111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
@@ -348,6 +360,38 @@
            id="tspan122099-9-6-5">Third Party Data</tspan></text>
     </g>
     <rect
+       style="fill:#c2e2ff;fill-opacity:1;stroke:#0abdd0;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter142394-2-3-2-3)"
+       id="rect142116-1-0-2-7"
+       width="81.864853"
+       height="24.805391"
+       x="40.016525"
+       y="25.480175"
+       rx="0.70000017"
+       ry="8.7558556"
+       transform="matrix(0.38969153,0,0,0.77312016,199.45444,55.624714)"
+       inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g4329-2-6-3-5"
+       transform="translate(140.88811,23.320137)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:7.76111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
+         x="87.752556"
+         y="62.191887"
+         id="text81429-7-2-7-3"
+         transform="scale(0.98150251,1.0188461)"
+         inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           style="font-size:7.76111px;stroke-width:0.286469"
+           x="87.752556"
+           y="62.191887"
+           id="tspan1723">...</tspan></text>
+    </g>
+    <rect
        style="fill:#c2e2ff;fill-opacity:1;stroke:#0abdd0;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter142394-3)"
        id="rect142116-7"
        width="81.864853"
@@ -356,13 +400,13 @@
        y="25.480175"
        rx="0.70000017"
        ry="8.7558556"
-       transform="matrix(0.61148595,0,0,0.78115634,58.735187,-6.4874599)"
+       transform="matrix(0.61148595,0,0,0.78115634,39.274483,-6.4810519)"
        inkscape:export-filename="/u/24/rantahj1/unix/src/polserver/data_protection.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <g
        id="g4329-5"
-       transform="translate(3.6142302,-37.759689)">
+       transform="translate(-15.846473,-37.753281)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.286469"
@@ -385,20 +429,20 @@
            id="tspan122099-6" /></text>
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker3136)"
-       d="M 44.690514,42.462023 91.35842,68.01596"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3136)"
+       d="m 60.030887,49.993355 31.54281,18.136193"
        id="path24431" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker2856)"
-       d="m 106.2669,33.603972 14.40078,34.227706"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2856)"
+       d="M 89.094179,32.600764 120.4897,67.628344"
        id="path24484" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker3136)"
-       d="m 173.40351,33.618297 -15.2531,33.707664"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3136)"
+       d="m 146.7921,33.577356 0.35481,34.046197"
        id="path24486" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker3136);stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 237.79214,45.029365 191.70097,68.01596"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3136)"
+       d="M 212.14242,35.444201 182.69801,67.089467"
        id="path24488" />
     <g
        id="g24706"
@@ -462,8 +506,12 @@
        d="m 155.15295,109.6735 17.778,29.07263"
        id="path24928" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker3136)"
-       d="m 219.00567,84.159396 -26.81659,3.78755"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3136)"
+       d="M 217.76189,51.221009 192.5581,71.575689"
        id="path30943" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3136-6)"
+       d="m 214.70389,84.043608 -22.71843,4.265577"
+       id="path30943-9" />
   </g>
 </svg>
